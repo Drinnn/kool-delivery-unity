@@ -7,9 +7,9 @@ public class Driver : MonoBehaviour
 
     private void Update()
     {
-        float steerAmount = Input.GetAxis("Horizontal") * steerSpeed * Time.deltaTime;
         float moveAmount = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
-        if (moveAmount <= 0)
+        float steerAmount = Input.GetAxis("Horizontal") * steerSpeed * Time.deltaTime;
+        if (moveAmount == 0)
         {
             return;
         }
