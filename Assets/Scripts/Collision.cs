@@ -6,4 +6,9 @@ public class Collision : MonoBehaviour
     {
         Debug.Log("Hitted " + other.transform.name);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Triggered " + other.transform.name);
+    }
 }
