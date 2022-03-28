@@ -4,8 +4,8 @@
 ![2D Game screen with a blue car on the road with two squares, purple and blue, a green circle and a few scenario props (trees, rocks, houses)](https://i.ibb.co/h7M1y4h/Captura-de-tela-2022-03-28-134114.png)
 
 ## Game Mechanics
-- [ ] Driving car forwards and backwards
-- [ ] Turning car left and right
+- [X] Driving car forwards and backwards
+- [X] Turning car left and right
 - [ ] Increase speed up whn drive over "Speed Ups"
 - [ ] Decrease speed when bump into "Slow Downs"
 - [ ] Pick up packages when drive over them
