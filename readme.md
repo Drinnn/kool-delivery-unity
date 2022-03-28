@@ -10,7 +10,6 @@
 - [ ] Decrease speed when bump into "Slow Downs"
 - [ ] Pick up packages when drive over them
 - [ ] Deliver package when drive over delivery spot
-- [ ] Change car color to show status
 
 ## Game Design
 
