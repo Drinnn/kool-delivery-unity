@@ -8,8 +8,8 @@
 - [X] Turning car left and right
 - [ ] Increase speed up whn drive over "Speed Ups"
 - [ ] Decrease speed when bump into "Slow Downs"
-- [ ] Pick up packages when drive over them
-- [ ] Deliver package when drive over delivery spot
+- [X] Pick up the corresponding package when drive over them
+- [X] Deliver the corresponding package when drive over delivery spot
 
 ## Game Design
 
