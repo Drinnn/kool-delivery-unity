@@ -725,6 +725,7 @@ GameObject:
   - component: {fileID: 296383591}
   - component: {fileID: 296383593}
   - component: {fileID: 296383592}
+  - component: {fileID: 296383594}
   m_Layer: 0
   m_Name: Delivery Point (2)
   m_TagString: DeliveryPoint
@@ -813,7 +814,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.36862746, g: 0.1254902, b: 0.12941177, a: 1}
+  m_Color: {r: 0.36862746, g: 0.1254902, b: 0.12941177, a: 0.42745098}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -823,6 +824,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &296383594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296383590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994b84ac402b0f04caa47dc637d33d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delivery: {fileID: 11400000, guid: e3dd9bf917d3f7e428d07db35003114a, type: 2}
 --- !u!1 &441147457
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,6 +1579,7 @@ GameObject:
   - component: {fileID: 867059979}
   - component: {fileID: 867059981}
   - component: {fileID: 867059980}
+  - component: {fileID: 867059982}
   m_Layer: 0
   m_Name: Package (2)
   m_TagString: Package
@@ -1663,6 +1678,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &867059982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 867059978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994b84ac402b0f04caa47dc637d33d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delivery: {fileID: 11400000, guid: e3dd9bf917d3f7e428d07db35003114a, type: 2}
 --- !u!1 &907782929
 GameObject:
   m_ObjectHideFlags: 0
@@ -1674,6 +1702,7 @@ GameObject:
   - component: {fileID: 907782930}
   - component: {fileID: 907782932}
   - component: {fileID: 907782931}
+  - component: {fileID: 907782933}
   m_Layer: 0
   m_Name: Package
   m_TagString: Package
@@ -1772,6 +1801,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &907782933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 907782929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994b84ac402b0f04caa47dc637d33d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delivery: {fileID: 11400000, guid: 21c2bf3699c9f084b829093466e35f5d, type: 2}
 --- !u!1 &915690416
 GameObject:
   m_ObjectHideFlags: 0
@@ -2730,6 +2772,7 @@ GameObject:
   - component: {fileID: 1219199822}
   - component: {fileID: 1219199824}
   - component: {fileID: 1219199823}
+  - component: {fileID: 1219199825}
   m_Layer: 0
   m_Name: Delivery Point
   m_TagString: DeliveryPoint
@@ -2818,7 +2861,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.20358667, g: 0.47868952, b: 0.7075472, a: 1}
+  m_Color: {r: 0.20358667, g: 0.47868952, b: 0.7075472, a: 0.42745098}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2828,6 +2871,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1219199825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219199821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994b84ac402b0f04caa47dc637d33d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delivery: {fileID: 11400000, guid: 21c2bf3699c9f084b829093466e35f5d, type: 2}
 --- !u!1 &1245575453
 GameObject:
   m_ObjectHideFlags: 0
@@ -3047,6 +3103,7 @@ GameObject:
   - component: {fileID: 1345242251}
   - component: {fileID: 1345242253}
   - component: {fileID: 1345242252}
+  - component: {fileID: 1345242254}
   m_Layer: 0
   m_Name: Package (1)
   m_TagString: Package
@@ -3145,6 +3202,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1345242254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1345242250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994b84ac402b0f04caa47dc637d33d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delivery: {fileID: 11400000, guid: 282f3f5bdad1dc94dae915ec208da7c0, type: 2}
 --- !u!1 &1361049580
 GameObject:
   m_ObjectHideFlags: 0
@@ -4606,6 +4676,7 @@ GameObject:
   - component: {fileID: 2110547269}
   - component: {fileID: 2110547271}
   - component: {fileID: 2110547270}
+  - component: {fileID: 2110547272}
   m_Layer: 0
   m_Name: Delivery Point (1)
   m_TagString: DeliveryPoint
@@ -4694,7 +4765,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
-  m_Color: {r: 0.5989347, g: 0.26593092, b: 0.6792453, a: 1}
+  m_Color: {r: 0.5989347, g: 0.26593092, b: 0.6792453, a: 0.42745098}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4704,6 +4775,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2110547272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110547268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 994b84ac402b0f04caa47dc637d33d19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delivery: {fileID: 11400000, guid: 282f3f5bdad1dc94dae915ec208da7c0, type: 2}
 --- !u!1 &2114551245
 GameObject:
   m_ObjectHideFlags: 0

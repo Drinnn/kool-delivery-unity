@@ -1,14 +1,28 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class Delivery : MonoBehaviour
 {
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        Debug.Log("Hitted " + other.transform.name);
-    }
+    private List<int> ownedPackages = new List<int>();
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log("Triggered " + other.transform.name);
+        if (other.CompareTag("Package"))
+        {
+            var deliveryIndex = other.GetComponent<DeliveryContainer>().delivery.index;
+            ownedPackages.Add(deliveryIndex);
+            Destroy(other.gameObject);
+        }
+        else if (other.CompareTag("DeliveryPoint"))
+        {
+            var deliveryIndex = other.GetComponent<DeliveryContainer>().delivery.index;
+            if (!ownedPackages.Contains(deliveryIndex))
+            {
+                return;
+            }
+
+            ownedPackages.Remove(deliveryIndex);
+            Destroy(other.gameObject);
+        }
     }
 }
