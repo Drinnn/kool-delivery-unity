@@ -6,8 +6,6 @@
 ## Game Mechanics
 - [X] Driving car forwards and backwards
 - [X] Turning car left and right
-- [ ] Increase speed up whn drive over "Speed Ups"
-- [ ] Decrease speed when bump into "Slow Downs"
 - [X] Pick up the corresponding package when drive over them
 - [X] Deliver the corresponding package when drive over delivery spot
 
