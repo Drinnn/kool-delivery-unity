@@ -1,9 +1,9 @@
 using UnityEngine;
 
-public class Driver : MonoBehaviour
+public class CarController : MonoBehaviour
 {
-    [SerializeField] private float steerSpeed = 200f;
-    [SerializeField] private float moveSpeed = 10f;
+    [SerializeField] private float steerSpeed = 100f;
+    [SerializeField] private float moveSpeed = 5f;
 
     private void Update()
     {
