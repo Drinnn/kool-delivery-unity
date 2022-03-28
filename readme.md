@@ -1,7 +1,7 @@
 # Kool Delivery
 
 ## Gameplay Overview Screen
-![2D Game screen with a blue car on the road with two squares, purple and blue, a green circle and a few scenario props (trees, rocks, houses)](https://i.ibb.co/h7M1y4h/Captura-de-tela-2022-03-28-134114.png)
+![2D Game screen with a yellow car on the road with two squares, purple and blue and a few scenario props (trees, rocks, houses)](./Gameplay%20Screnshot.png?raw=true "Screnshot")
 
 ## Game Mechanics
 - [X] Driving car forwards and backwards
